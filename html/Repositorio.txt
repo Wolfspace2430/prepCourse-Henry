@@ -1,0 +1,39 @@
+Repositorio
+
+Un repositorio es un almacén o lugar donde guardar ciertas cosas.
+
+
+Necesidad del mundo tech
+
+Guardar, mantener y manipular el código posteriormente.
+
+
+GIT
+
+Sistema de control de versiones que nos brinda la posibilidad de que otros desarrolladores se unan a editar nuestro proyecto a traves de un repositorio.
+
+
+credenciales
+
+ Como configurar las credenciales en git para que git nos reconozca como propietarios o colaboradores den un repositorio.
+
+para configurar nuestro email hay que utilizar el comando "git config --gobal user.email" en gitbash
+
+para configurar nuestro nombre de usuario hay que utilizar el comando "git config --global user.name" en gitbash
+
+
+commit: captura instantánea de los cambios en ese momento del proyecto.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comandos para subir un archivo a git y posteriormente a un repositorio en GitHub
+
+- git add .
+#Este comando guardará los cambios en git
+- git commit -m "mensaje commit"
+#Este comando Permitirá Agregarle un titulo a los cambios, este titulo se agregará en la parte que dice " 'mensaje commit' "
+- git push
+#Este comando subirá los cambios realizados al repositorio de github
+
+
+
