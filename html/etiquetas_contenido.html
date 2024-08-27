@@ -15,6 +15,19 @@
     <a href="etiquetas_bloque.html">Etiquetas de bloque</a>
     <a href="etiquetas_formato.html">Etiquetas de formato</a>
     <!-- La etiqueta que nos permitirá poner enlaces en una pagina web es la etiqueta anchor (a); esta eiqueta cuenta con un atributo llamado href, el cual nos permitira poner un link local o un link externo -->
-    <!-- A estas etiquetas se les puede agregar un link "muerto", esto agregando un '#' dentro del atributo href -->
+    <!-- A estas etiquetas se les puede agregar un link "muerto", esto agregando un '#' dentro del atributo href -->    
+    <form action="formulary">
+        <div>
+            <label for="correo">Email</label>
+            <input type="email" name="correo" placeholder="example@gmail.com">
+        </div>
+        <div>
+            <label for="numero_contacto">numero de contacto</label>
+            <input type="tel" name="numero_contacto" placeholder="000 000 0000" required>
+        </div>
+        <input type="submit" value="send">
+    </form>
+        <!-- for en los label sirven para indicar a que input se indica, como se puede ver en la parte superior en email, al label le dí for = "correo" teniendo en cuenta que el input tiene de name "correo" -->
+        <!-- place holder nos sirve para indicar al usuario que debe escribir en el input -->
 </body>
 </html>
